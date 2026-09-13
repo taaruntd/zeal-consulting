@@ -1,10 +1,10 @@
 import { useEffect } from 'react'
-import Navbar from './components/Navbar'
-import Logo from './components/Logo'
-import Dashboard from './components/Dashboard'
-import SectionHeading from './components/SectionHeading'
-import WorkVisual from './components/WorkVisual'
-import { content } from './content'
+import Navbar from './components/Navbar.jsx'
+import Logo from './components/Logo.jsx'
+import Dashboard from './components/Dashboard.jsx'
+import SectionHeading from './components/SectionHeading.jsx'
+import WorkVisual from './components/WorkVisual.jsx'
+import { content } from './content.js'
 
 export default function App(){
  useEffect(()=>{
