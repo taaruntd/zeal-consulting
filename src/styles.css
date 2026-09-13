@@ -13,3 +13,15 @@
 @media(max-width:980px){.hero{grid-template-columns:1fr;padding-top:130px}.heroDash{max-width:680px}.heroNote{display:none}.serviceGrid{grid-template-columns:repeat(2,1fr)}.problemGrid{grid-template-columns:repeat(2,1fr)}.industries{grid-template-columns:repeat(3,1fr)}.engageGrid{grid-template-columns:repeat(2,1fr)}.methodLine{gap:30px}.connector{width:calc(100% + 30px)}.aboutGrid{grid-template-columns:170px 1fr}.aboutMark{font-size:130px}}
 @media(max-width:720px){.section{padding:76px 0}.shell{width:min(100% - 32px,1180px)}.nav{height:64px;padding:0 16px}.nav nav{display:none;position:absolute;top:64px;left:10px;right:10px;background:#0e0f11;border:1px solid #26272a;padding:12px;flex-direction:column;gap:0}.nav nav.open{display:flex}.nav nav a{padding:12px}.menu{display:block}.desktopCta{display:none}.hero{min-height:auto;padding:112px 18px 72px;display:block}.hero h1{font-size:42px}.heroCopy>p{font-size:13px}.heroDash{margin-top:55px}.dashWrap{transform:none;padding:10px}.metricGrid{grid-template-columns:repeat(2,1fr)}.dashLower{grid-template-columns:1fr}.health{display:none}.problemGrid,.serviceGrid,.engageGrid,.principles{grid-template-columns:1fr}.problem{min-height:auto}.serviceCard{min-height:auto}.methodLine{grid-template-columns:1fr;gap:44px}.connector{display:none}.industries{grid-template-columns:repeat(2,1fr)}.workCard{grid-template-columns:1fr;gap:25px;padding:22px}.proofGrid{grid-template-columns:1fr;gap:15px}.aboutGrid{grid-template-columns:1fr;gap:15px}.aboutMark{font-size:82px}.footerGrid{grid-template-columns:1fr 1fr}.footerGrid>div:first-child{grid-column:1/-1}.copyright{display:block}.copyright span{float:right}.miniMetrics b{font-size:15px}.heroGlow{width:280px;height:280px}.sectionHeading{margin-bottom:32px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}.button{transition:none}}
+.realLogo {
+  height: 42px;
+  width: auto;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 720px) {
+  .realLogo {
+    height: 34px;
+  }
+}
