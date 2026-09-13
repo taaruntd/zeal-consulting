@@ -4,6 +4,7 @@ import Dashboard from './components/Dashboard.jsx'
 import SectionHeading from './components/SectionHeading.jsx'
 import SystemsShowcase from './components/SystemsShowcase.jsx'
 import Logo from './components/Logo.jsx'
+import GoldenSpiral from './components/GoldenSpiral.jsx'
 import { content } from './content.js'
 
 export default function App(){
@@ -17,7 +18,8 @@ export default function App(){
     <Navbar/>
     <main id="top">
       <section className="hero">
-        <div className="heroGlow"/><div className="mesh"/>
+        <GoldenSpiral/>
+        <div className="heroGlow"/>
         <div className="heroCopy reveal">
           <div className="eyebrow">{content.hero.eyebrow}</div>
           <h1>{content.hero.titleA}<br/><span>{content.hero.titleAccent}</span><br/>{content.hero.titleB}</h1>
